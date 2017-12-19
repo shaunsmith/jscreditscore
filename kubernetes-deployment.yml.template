@@ -39,6 +39,6 @@ spec:
   selector:
     run: rest-jscreditscore
   ports:
-    - port: 8088
+    - port: 30000
       targetPort: 3000
   type: NodePort
